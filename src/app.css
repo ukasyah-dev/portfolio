@@ -8,4 +8,8 @@
 	body > div {
 		@apply h-full relative;
 	}
+
+	body {
+		@apply text-neutral-900;
+	}
 }
