@@ -1,6 +1,15 @@
 export { default as CalendarIcon } from './CalendarIcon.svelte';
+export { default as DockerIcon } from './DockerIcon.svelte';
 export { default as EnvelopeIcon } from './EnvelopeIcon.svelte';
 export { default as GithubIcon } from './GithubIcon.svelte';
+export { default as GoIcon } from './GoIcon.svelte';
+export { default as GraphQLIcon } from './GraphQLIcon.svelte';
+export { default as KubernetesIcon } from './KubernetesIcon.svelte';
 export { default as LinkedinIcon } from './LinkedinIcon.svelte';
 export { default as MapPinIcon } from './MapPinIcon.svelte';
+export { default as MySQLIcon } from './MySQLIcon.svelte';
+export { default as NestjsIcon } from './NestjsIcon.svelte';
+export { default as NextIcon } from './NextIcon.svelte';
+export { default as PostgreSQLIcon } from './PostgreSQLIcon.svelte';
+export { default as ReactIcon } from './ReactIcon.svelte';
 export { default as XIcon } from './XIcon.svelte';

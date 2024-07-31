@@ -10,11 +10,13 @@
 		rel="stylesheet"
 	/>
 
-	<title>Ukasyah • Full-Stack Developer</title>
+	<title>Ukasyah • Full Stack Developer</title>
 	<meta
 		name="description"
-		content="Specializing in creating user-friendly and high-performance web applications."
+		content="Full Stack Developer with a keen interest in solving real-world problems and building high-impact solutions."
 	/>
 </svelte:head>
 
-<slot />
+<div class="px-5 md:px-6">
+	<slot />
+</div>
