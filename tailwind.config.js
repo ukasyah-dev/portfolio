@@ -5,10 +5,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Inter', 'sans-serif']
-			},
-			fontSize: {
-				base: '0.975rem'
+				sans: ['Manrope', 'sans-serif']
 			}
 		}
 	},

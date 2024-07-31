@@ -50,6 +50,9 @@ importers:
       svelte-check:
         specifier: ^3.6.0
         version: 3.8.4(postcss-load-config@4.0.2(postcss@8.4.39))(postcss@8.4.39)(svelte@4.2.18)
+      svelte-hero-icons:
+        specifier: ^5.2.0
+        version: 5.2.0(svelte@4.2.18)
       tailwind-merge:
         specifier: ^2.4.0
         version: 2.4.0
@@ -371,6 +374,9 @@ packages:
     resolution: {integrity: sha512-yjk2MAkQmoaPYCSu35RLJ62+dz358nE83VfTePJRp8CG7aMg25mEJYpXFiD+NcevhX8LxD5OP5tktPXnXN7GDw==}
     cpu: [x64]
     os: [win32]
+
+  '@steeze-ui/heroicons@2.4.0':
+    resolution: {integrity: sha512-gxOytXYV/lQiGxkZQC+CP5IWCa+d/vscRKn4JfZXgF8MZEzg9wfl1tTi/GOr3Eg93YkhlhNDwTIGWjhMaEwmvw==}
 
   '@sveltejs/adapter-static@3.0.2':
     resolution: {integrity: sha512-/EBFydZDwfwFfFEuF1vzUseBoRziwKP7AoHAwv+Ot3M084sE/HTVBHf9mCmXfdM9ijprY5YEugZjleflncX5fQ==}
@@ -1318,6 +1324,12 @@ packages:
       svelte:
         optional: true
 
+  svelte-hero-icons@5.2.0:
+    resolution: {integrity: sha512-KpdMTL0bOnkxciEmDXvyVF/R5nrZ1x1uHCSt9gMrrbEd3g5HSIaaDChOutTOfeI+cZ3EJbb+OcBH/lBzJr1aEw==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      svelte: ^3.0.0 || ^4.0.0 || ^5.0.0
+
   svelte-hmr@0.16.0:
     resolution: {integrity: sha512-Gyc7cOS3VJzLlfj7wKS0ZnzDVdv3Pn2IuVeJPk9m2skfhcu5bq3wtIZyQGggr7/Iim5rH5cncyQft/kRLupcnA==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
@@ -1710,6 +1722,8 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.18.1':
     optional: true
+
+  '@steeze-ui/heroicons@2.4.0': {}
 
   '@sveltejs/adapter-static@3.0.2(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3))(svelte@4.2.18)(vite@5.3.3))':
     dependencies:
@@ -2691,6 +2705,11 @@ snapshots:
       postcss: 8.4.39
       postcss-scss: 4.0.9(postcss@8.4.39)
     optionalDependencies:
+      svelte: 4.2.18
+
+  svelte-hero-icons@5.2.0(svelte@4.2.18):
+    dependencies:
+      '@steeze-ui/heroicons': 2.4.0
       svelte: 4.2.18
 
   svelte-hmr@0.16.0(svelte@4.2.18):

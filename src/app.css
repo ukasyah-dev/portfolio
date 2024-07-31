@@ -10,6 +10,6 @@
 	}
 
 	body {
-		@apply text-neutral-900;
+		@apply font-medium tracking-wide text-neutral-900;
 	}
 }
