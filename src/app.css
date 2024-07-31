@@ -10,6 +10,11 @@
 	}
 
 	body {
-		@apply font-medium tracking-wide text-neutral-900;
+		@apply font-medium tracking-wide text-neutral-800;
+	}
+
+	h1,
+	h2 {
+		@apply font-extrabold tracking-normal;
 	}
 }
